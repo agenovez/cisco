@@ -1,0 +1,17 @@
+hostname [nombre del host]
+!
+no ip domain-lookup
+!
+service password-encryption
+enable secret class
+!
+line con 0
+loggin synchronous
+password cisco
+login
+exit
+!
+line vty 0 15
+password cisco
+login
+end
