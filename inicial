@@ -14,4 +14,9 @@ exit
 line vty 0 15
 password cisco
 login
+exit
+!
+banner motd ^C
+Acceso no autorizado a este equipo esta estrictamente prohibido. ^C
+!
 end
